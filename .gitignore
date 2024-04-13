@@ -40,3 +40,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+/.vs
+/.vs/indexa2/FileContentIndex
+/.vs/indexa2/FileContentIndex/74ecc8b8-34f8-464b-a7a5-0e6ff78e2c42.vsidx
+/.vs/indexa2/FileContentIndex/8bc34d19-2767-49e6-90f3-d47b085bdd35.vsidx
+/.vs/indexa2/FileContentIndex/9d3a4307-38ac-480c-b605-715f5ca626e0.vsidx
+/.vs/slnx.sqlite
