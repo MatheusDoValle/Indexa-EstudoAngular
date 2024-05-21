@@ -13,16 +13,24 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 })
 export class FormularioComponent {
 
-  contatoForm: FormGroup;
+  contatoForm!: FormGroup;
 
   constructor(){
     this.contatoForm = new FormGroup({
-      nome: new FormControl(''),
-      telefone: new FormControl(''),
-      email: new FormControl(''),
+      nome: new FormControl('Matheus'),
+      telefone: new FormControl('21 99999-9999'),
+      email: new FormControl('matheus@gmail.com'),
       aniversario: new FormControl(''),
       redes: new FormControl(''),
-      observacoes: new FormControl('')
+      observacoes: new FormControl('Hello World')
     })
   }
+
+  salvarContato(){
+    console.log(this.contatoForm.value);
+  }
+  cancelar() {
+    console.log('Submissão cancelada');
+}
+
 }
