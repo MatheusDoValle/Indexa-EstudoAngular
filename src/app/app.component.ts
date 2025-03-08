@@ -46,7 +46,7 @@ export class AppComponent {
       return this.contatos;
     }
     return this.contatos.filter(contato => {
-      // Compara os nomes sem acentuações
+     
       return this.removerAcentos(contato.nome).toLowerCase().includes(this.removerAcentos(this.filtroPorTexto).toLowerCase());
     })
   }
